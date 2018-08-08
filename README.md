@@ -6,7 +6,7 @@
 -  基于[webpack](https://github.com/webpack/webpack)4来作为构建工具，执行`build`命令时自动进行`tree shaking`和`scope hoisting`优化
 -  基于[postcss](https://github.com/postcss/postcss)管理css，使用了[precss](https://github.com/jonathantneal/precss)和[cssnext](https://github.com/MoOx/postcss-cssnext)插件
 -  除了[webpack](https://github.com/webpack/webpack)自带的优化外，本框架还用了[hard-source-webpack-plugin](https://github.com/mzgoddard/hard-source-webpack-plugin)插件进行了缓存处理
--  基于[rimraf](https://github.com/isaacs/rimraf)，解决了每次build后dist里会残留之前的文件问题
+-  基于[rimraf](https://github.com/isaacs/rimraf)，解决了每次`npm run build`后dist文件夹里会残留之前的文件问题
 
 ## 存在的问题
 
