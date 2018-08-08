@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
+    "prebuild": "rimraf dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -27,6 +28,7 @@
     "postcss-cssnext": "^3.1.0",
     "postcss-loader": "^2.1.6",
     "precss": "^3.1.2",
+    "rimraf": "^2.6.2",
     "transform-runtime": "^0.0.0",
     "ts-loader": "^4.4.2",
     "webpack": "^4.16.4",
