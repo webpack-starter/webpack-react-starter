@@ -10,6 +10,8 @@ import Foo from './Foo';
 
 const store = configureStore(/* provide initial state if any */)
 
+window.store = store;
+
 ReactDOM.render(
   <Provider store={store}>
     <ConnectedRouter history={history}> 
